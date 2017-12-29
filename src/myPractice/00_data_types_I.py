@@ -14,9 +14,6 @@ def show_me_a_float():
 
 
 def show_me_some_strings():
-
-    # more escapes seqs like \n:
-    # https://docs.python.org/3/reference/lexical_analysis.html#strings
     print('I am a string.\n<- There is a newline char.')
     print()
 
