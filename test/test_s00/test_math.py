@@ -6,4 +6,4 @@ class TestSolver(TestCase):
 
     def test_negative_discr(self):
         s = Math()
-        self.assertRaise(Exception,s.solver,2,1,2)
+        self.assertRaises(Exception,s.solver,2,1,2)
